@@ -1,1 +1,1 @@
-# bsu-programming
+Programming related stuff for BSU

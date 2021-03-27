@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{6B63122F-01C2-4B5D-96A0-CD8BD5D986B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{E9C136A1-3B90-4A7E-899D-C6D32EA4B299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B63122F-01C2-4B5D-96A0-CD8BD5D986B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B63122F-01C2-4B5D-96A0-CD8BD5D986B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B63122F-01C2-4B5D-96A0-CD8BD5D986B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B63122F-01C2-4B5D-96A0-CD8BD5D986B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C136A1-3B90-4A7E-899D-C6D32EA4B299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C136A1-3B90-4A7E-899D-C6D32EA4B299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C136A1-3B90-4A7E-899D-C6D32EA4B299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C136A1-3B90-4A7E-899D-C6D32EA4B299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

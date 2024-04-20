@@ -33,7 +33,6 @@ class TestWindow(QMainWindow):
 class TestMenu(QMenuBar):
     def __init__(self, parent: QMainWindow):
         super().__init__(parent)
-        self.mainWindow = parent
                 
         self.stateMItem = QMenu("State")
         self.editMItem = QMenu("Edit")

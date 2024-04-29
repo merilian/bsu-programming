@@ -1,11 +1,16 @@
 from .TestMenu import TestMenu
 
-from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel
-from PyQt6.QtCore import Qt
 
-import sys
+
+
+
 
 if __name__ == "__main__":
+    from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel
+    from PyQt6.QtCore import Qt
+
+    import sys
+
     app = QApplication(sys.argv)
     wnd = QMainWindow()
     wnd.setGeometry(200, 200, 450, 450)

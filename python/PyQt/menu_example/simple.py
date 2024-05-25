@@ -25,7 +25,9 @@ loadMenuAction = QAction("Load")
 stateMItem.addAction(loadMenuAction)
 
 def loadActionHandler():
-    centralWidget.setText("Clicked on State->Load menu item")
+    import json
+    data = json.load(open('json/out.json'))
+    centralWidget.setText(data['text'])
 
 loadMenuAction.triggered.connect(loadActionHandler)
 
@@ -34,7 +36,11 @@ saveMenuAction = QAction("Save")
 stateMItem.addAction(saveMenuAction)
 
 def saveActionHandler():
-    centralWidget.setText("Clicked on State->Save menu item")
+    import json
+    toSave = {
+        'text': "Saved to file text"
+    }
+    json.dump(toSave, open('json/out.json', 'w'), indent=2)
 
 saveMenuAction.triggered.connect(saveActionHandler)
 
